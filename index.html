@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Morella Cantos">
+    <meta name="description" content="Pagina para calcular el indice de masa corporal">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Calculo del IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calcule su indice de masa corporal</h1>
+    </header>
+    
+    <main>
+        <section>
+            <article>
+                <form action="../Ejercicio 2/js/procesar.js" method="get" onsubmit="return false;">
+                    <fieldset>
+                        <legend>Ingrese sus datos</legend>
+                        <label for="altura">Altura (m):
+                            <input type="text" id="altura" name="altura" placeholder="Ej: 1.60">
+                        </label>
+                        <label for="altura">Peso (kg):
+                            <input type="text" id="peso" name="peso" placeholder="Ej: 60">
+                        </label>
+                    </fieldset>
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Calcular" id="calcular">
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="mailto:cantosmorella@gmail.com">cantosmorella@gmail.com</a></p>
+    </footer>
+    
+    <script src="js/procesar.js"></script>
+</body>
+</html>
